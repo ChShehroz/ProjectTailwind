@@ -1,0 +1,5 @@
+.shapes {
+  opacity: 0.02;
+  position: absolute;
+  z-index: 2;
+}
