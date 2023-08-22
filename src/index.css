@@ -1,3 +1,14 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+body {
+  background-color: #171941;
+  color: #ffffff;
+  background-image: url("./assets/Images/dotsBg.png");
+  min-height: 100vh;
+  background-size: contain;
+  background-position: "center";
+  align-items: center;
+  justify-content: center;
+}
