@@ -47,7 +47,7 @@ const FirstSec = () => {
           alt="..."
         />
         <div className=" w-full px-[15px] max-w-max pt-[12vh] pb-[40px] mx-auto h-full z-[1]">
-          <div className="flex flex-col justify-center items-center leading-[1.05] z-[2] text-center text-[#fffcc] h-full mx-auto py-0 px-4 sm:px-6 lg:px-8 max-w-screen-lg">
+          <div className="flex flex-col justify-center items-center leading-[1.05] z-[2] text-center text-[#ffffffcc] h-full mx-auto py-0 px-4 sm:px-6 lg:px-8 max-w-screen-lg">
             <h1 className="text-[5em] mb-8">
               BLK•{" "}
               <small className="uppercase text-[#ff8d72] font-semibold">

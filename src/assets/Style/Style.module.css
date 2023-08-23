@@ -3,3 +3,37 @@
   position: absolute;
   z-index: 2;
 }
+
+.btn {
+  margin: 4px 1px;
+  padding: 11px 30px;
+  font-weight: 400;
+  float: left;
+  margin-right: 15px;
+  border-width: 1px;
+  border-radius: 30px;
+  border: none;
+  background: #e14eca;
+  background-image: linear-gradient(to bottom left, #e14eca, #ba54f5, #e14eca);
+  background-size: 210% 210%;
+  background-position: 100% 0;
+  background-color: #e14eca;
+  color: #fff;
+  box-shadow: none;
+}
+.btnSimple {
+  color: #e14eca;
+  border-color: #e14eca;
+  background: 0 0;
+  border: 1px solid #e14eca;
+  padding: 10px 22px;
+}
+
+.btnSimple:hover {
+  background-color: #e14eca;
+  color: #fff;
+}
+.btn1:hover {
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  transform: translateY(-1px);
+}
