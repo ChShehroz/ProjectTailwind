@@ -11,7 +11,7 @@ const FirstSec = () => {
     <div>
       <div
         className={
-          "h-screen min-h-screen max-h-[999px] p-0 relative overflow-hidden flex items-center"
+          "h-screen min-h-screen p-0 relative overflow-hidden flex items-center"
         }
       >
         <img
@@ -46,7 +46,31 @@ const FirstSec = () => {
           src={waves}
           alt="..."
         />
+        <div className=" w-full px-[15px] max-w-max pt-[12vh] pb-[40px] mx-auto h-full z-[1]">
+          <div className="flex flex-col justify-center items-center leading-[1.05] z-[2] text-center text-[#fffcc] h-full mx-auto py-0 px-4 sm:px-6 lg:px-8 max-w-screen-lg">
+            <h1 className="text-[5em] mb-8">
+              BLK•{" "}
+              <small className="uppercase text-[#ff8d72] font-semibold">
+                Pro react
+              </small>
+            </h1>
+            <h3 className="text-[#fffcc] mb-9 font-normal text-2xl">
+              Start the Development With this Badass Bootstrap 4 Design System.
+            </h3>
+            <button className="border mt-4 border-[#ff8d72] text-[#ff8d72] hover:bg-[#ff8d72] hover:text-white rounded-lg px-12 py-3 text-base  transition duration-300">
+              BUT NOW
+            </button>
+            <br />
+            <a
+              href="#pablo"
+              className=" mt-4 inline-block text-[#ff8d72]  hover:text-white rounded-lg px-6 py-3 text-sm font-semibold transition duration-300"
+            >
+              <u>Show pricing</u>
+            </a>
+          </div>
+        </div>
       </div>
+      <div className={"h-[110px] block"}></div>
     </div>
   );
 };
