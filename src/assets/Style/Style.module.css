@@ -37,3 +37,10 @@
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
   transform: translateY(-1px);
 }
+
+.borderBottom {
+  border-bottom: 1px solid #96aeed4d;
+}
+.boxShad:hover {
+  box-shadow: 13px 13px 77px -24px #1d8cf8;
+}
