@@ -1,3 +1,5 @@
+import styleCss from "../../assets/Style/Style.module.css";
+
 const CustomIcon = () => {
   return (
     <div className="relative px-0 py-44">
@@ -17,6 +19,19 @@ const CustomIcon = () => {
               Design System PRO React. Make sure you check all of them and use
               those that you like the most.
             </p>
+            <br />
+            <div className="flex justify-center ">
+              <button
+                className={`${styleCss.btn} ${styleCss.btnCustomIcon1} ${styleCss.btn1}`}
+              >
+                View Demo Icons
+              </button>
+              <button
+                className={`${styleCss.btn} ${styleCss.btnCustomIcon2} ${styleCss.btn1}`}
+              >
+                View All Icons
+              </button>
+            </div>
           </div>
           <div className="sm:w-1/6 lg:w-1/4 flex relative w-full px-4">
             div3

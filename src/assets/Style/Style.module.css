@@ -21,6 +21,17 @@
   color: #fff;
   box-shadow: none;
 }
+
+.btnCustomIcon1 {
+  background: #ff8d72;
+  background-image: linear-gradient(to bottom left, #ff8d72, #ff6491, #ff8d72);
+  background-color: #ff8d72;
+}
+.btnCustomIcon2 {
+  background: #344675;
+  background-image: linear-gradient(to bottom left, #344675, #263148, #344675);
+  background-color: #344675;
+}
 .btnSimple {
   color: #e14eca;
   border-color: #e14eca;
