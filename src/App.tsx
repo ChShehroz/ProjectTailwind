@@ -1,5 +1,6 @@
 import FirstSec from "./Component/FirstSec/FirstSec";
 import Icon from "./Component/IconSec/Icon";
+import CustomIcon from "./Component/customIcon/customIcon";
 import "./assets/Style/App.css";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <FirstSec />
       <Icon />
+      <CustomIcon />
     </>
   );
 }
